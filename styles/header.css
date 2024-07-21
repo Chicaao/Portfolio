@@ -1,0 +1,30 @@
+header {
+  text-align: center;
+  img {
+    width: 20rem;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border: red solid 2px ;
+    border-radius: 999.9rem;
+    margin-block: 5rem 6.4rem;
+    
+  }  
+
+}
+section{
+p:nth-child(1) {
+  font: var(--text-span);
+  color: var(--gray-500);
+  margin-bottom: 8px;
+}
+
+h1 {
+  font: var(--h1);
+  color: var(--gray-600);
+  margin-bottom: 2rem;
+}
+
+p:nth-child(3) {
+  font: var(--text-sm);
+}
+}

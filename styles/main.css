@@ -1,0 +1,16 @@
+main{
+  display: flex;
+  gap: 1.6rem;
+  justify-content: center;
+  margin-top: 8rem;
+}
+
+figure {
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+  padding: .8rem 1.6rem;
+  border-radius: 99.9rem;
+  background-color: var(--gray-300);
+}
+

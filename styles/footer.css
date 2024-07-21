@@ -1,0 +1,8 @@
+button {
+  display: block;
+  margin: auto;
+  border: none;
+  background-color: var(--gray-200);
+  margin-block: 9.4rem 5.7rem;
+  cursor: pointer;
+}
