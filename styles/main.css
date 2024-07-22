@@ -12,5 +12,7 @@ figure {
   padding: .8rem 1.6rem;
   border-radius: 99.9rem;
   background-color: var(--gray-300);
+  color: var(--gray-500);
+  font: var(--text-md);
 }
 
