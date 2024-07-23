@@ -28,3 +28,32 @@ figure {
   }
 }
 
+#grids {
+  display: grid;
+  row-gap: 2.4rem;
+  margin-bottom: 14.4rem;
+
+  img {
+    position: absolute;
+    top: 1.9rem;
+    left: -1.2rem;
+    width: 35.6rem;
+    height: 15.6rem;
+    object-fit: cover;
+    margin-bottom: 2rem;
+  }
+  .content-tag {
+    text-align: start;
+    position: absolute;
+    top: 18rem;
+    left: 5.6rem;
+  }
+  figure {
+    position: relative;
+    width: 33rem;    
+    height: 28rem;
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    gap: 2.4rem;
+  }
+}
