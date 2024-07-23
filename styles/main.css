@@ -1,11 +1,10 @@
-main{
-  width: 100%;
+#tags {
   display: flex;
   gap: 1.6rem;
   justify-content: center;
   margin-top: 8rem;
   flex-wrap: wrap;
-}
+} 
 
 figure {
   display: flex;
@@ -16,5 +15,16 @@ figure {
   background-color: var(--gray-300);
   color: var(--gray-500);
   font: var(--text-md);
+}
+
+.header {
+  text-align: center;
+  .subtitle {
+    display: block;
+    margin-top:7.2rem;
+  }
+  h2 {
+    margin-block: .8rem 5.6rem ;
+  }
 }
 
