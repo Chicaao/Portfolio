@@ -14,7 +14,7 @@ text-align: center;
 }
 
 section{
-  width: 32rem;
+  width: 68rem;
   text-align: center;
   p:nth-child(1) {
   font: var(--text-span);

@@ -11,7 +11,7 @@ button {
   margin: auto;
   border: none;
   background-color: var(--gray-200);
-  margin-block: 9.4rem 5.7rem;
+  margin-block: 15.4rem 30.7rem;
   cursor: pointer;
 }
 
@@ -36,13 +36,13 @@ figure {
 #grids {
   display: grid;
   row-gap: 2.4rem;
-  margin-bottom: 14.4rem;
-
+  margin-bottom: 24.4rem;
+  justify-items: center;
   img {
     position: absolute;
     top: 1.9rem;
     left: -1.2rem;
-    width: 35.6rem;
+    width: 34rem;
     height: 15.6rem;
     object-fit: cover;
     margin-bottom: 2rem;
@@ -52,6 +52,7 @@ figure {
     position: absolute;
     top: 18rem;
     left: 5.6rem;
+    width: 20rem;
   }
   figure {
     position: relative;

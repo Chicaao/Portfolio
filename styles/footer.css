@@ -12,6 +12,10 @@ footer {
     border: solid 2px var(--gray-200);
   }
 
+  #services {
+    width: 100%;
+  }
+  
   img {
     position: absolute;
     top: 2rem;
@@ -23,14 +27,57 @@ footer {
     top: 8.8rem;
     left: 2rem;
     text-align: start;
+    width: inherit;
+  }
+  .subtitle {
+    display: flex;
+    flex-direction: column;
+    padding-top: 8.8rem;
+    gap: 8px;
+    text-align: center;
   }
 }
 
-.subtitle {
-  display: flex;
-  flex-direction: column;
-  padding-top: 8.8rem;
-  gap: 8px;
-  text-align: center;
+#contato {
+ margin-top: 23.8rem;
+ justify-content: center;
+ text-align: center;
+ display: flex;
+ gap: 8px ;
+ 
 }
+
+#contato span {
+  color: var(--purple);
+}
+
+
+
+#redes-sociais a {
+ display: flex;
+ align-items: center;
+ gap: 1.2rem;
+ margin: 4.8rem auto;
+ border-radius: .8rem;
+  width: 40rem;
+  height: 6.8rem;
+  background-color: var(--gray-300);
+  p {
+    width: 25.8rem;
+  }
+  
+  img {
+    position: inherit;
+    padding-left: 2.2rem ;
+
+  }
+  .seta {
+
+  }
+  }
+
+
+
+
+
 
